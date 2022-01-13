@@ -81,7 +81,8 @@
       $ wget -b https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso
 ### Uygulama içi görüntü
 ![b-param 1](https://user-images.githubusercontent.com/56341239/149327907-9f7ac1ee-689d-4962-beb4-5bc623e4407f.PNG)
-
+- Arka planda indirmek için
+- 
 ## --no-check-certificate parametresi
 
       Geçersiz bir SSL sertifikasına sahip bir ana bilgisayardan HTTPS üzerinden dosya indirmek istiyorsanız
@@ -91,6 +92,7 @@
 ### Uygulama içi görüntü
 ![sertifika](https://user-images.githubusercontent.com/56341239/149328141-e2749b29-0a8d-413d-b570-d41377373979.PNG)
 
+- Geçersiz bir SSL sertifikasına sahip bir ana bilgisayardan HTTPS üzerinden dosya indirmek istiyorsanız
 
 ### Uygulama içi görüntü
 
@@ -100,3 +102,8 @@
 ![basarisiz](https://user-images.githubusercontent.com/56341239/149329635-f0aa90f4-3eef-4338-909a-72ea1f8a431f.PNG)
 - Başarısız işlem mesajı
 
+
+# Kullanılan Teknolojiler
+- Bash Script
+- Zenity
+- Nano text editor

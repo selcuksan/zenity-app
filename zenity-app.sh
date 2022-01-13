@@ -2,8 +2,8 @@
 
 rc=1
 while [ $rc -eq 1 ]; do
-  ans=$(zenity --info --title="İndirme Türü" \
-      --text 'İndirme Türü Seçin' \
+  ans=$(zenity --info --title="Parametreler" \
+      --text 'Parametre Seçin' \
       --ok-label Quit \
       --extra-button Parametresiz \
       --extra-button -i \
@@ -18,7 +18,7 @@ while [ $rc -eq 1 ]; do
   if [[ $ans = "Parametresiz" ]]
   then
 	echo "Tekli İndirme"
-	row=$(zenity --forms --title="Tekli İndirme" \
+	row=$(zenity --forms --title="Parametresiz İndirme" \
 	--text="İndirme Linkini Yapıştırın" \
 	--add-entry="Link: ")
 	echo $row
@@ -37,7 +37,7 @@ while [ $rc -eq 1 ]; do
   then
         echo "Çoklu İndirme"
         zenity --file-selection \
-	--title "dosyalari sec" \
+	--title "Dosya seç" \
 	--filename "\home\${USER}/" \
 	--multiple > path.txt
 	path=$( cat path.txt )

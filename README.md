@@ -2,10 +2,13 @@
       Zenity ve bash script kullanarak yazılmış, wget komutu ile web'den dosya indirmeye yarayan uygulamadır.
 
 ## Zenity nedir
-      * Zenity çeşitli basit diyalog türleri oluşturmanıza olanak sağlar. Kullanıcıyla grafiksel olarak etkileşime giren basit diyaloglar oluşturmak için Zenity kullanabilirsiniz.
+      * Zenity çeşitli basit diyalog türleri oluşturmanıza olanak sağlar. 
+      Kullanıcıyla grafiksel olarak etkileşime giren basit diyaloglar oluşturmak için Zenity kullanabilirsiniz.
 
 ## Wget nedir
-      GNU Wget, web'den dosya indirmek için bir komut satırı yardımcı programıdır. Wget ile HTTP, HTTPS ve FTP protokollerini kullanarak dosyaları indirebilirsiniz.Wget komutunun temel sözdizimi:
+      GNU Wget, web'den dosya indirmek için bir komut satırı yardımcı programıdır. 
+      Wget ile HTTP, HTTPS ve FTP protokollerini kullanarak dosyaları indirebilirsiniz.
+      Wget komutunun temel sözdizimi:
 
       - wget [parametre] [url]
 
@@ -34,7 +37,9 @@
 
  
 ### -i parametresi 
-      Aynı anda birden fazla dosya indirmek istiyorsanız, -i parametresini ve ardından indirilecek URL'lerin listesini içeren bir dosyanın yolunu kullanın. Her URL'nin ayrı bir satırda olması gerekir.
+      Aynı anda birden fazla dosya indirmek istiyorsanız, -i parametresini ve ardından
+      indirilecek URL'lerin listesini içeren bir dosyanın yolunu kullanın.
+      Her URL'nin ayrı bir satırda olması gerekir.
 
       $ wget -i indirmeLinkleri.txt
  
@@ -44,7 +49,8 @@
       $ wget -O farkliAd https://github.com/gohugoio/hugo/archive/master.zip
 ### -P parametresi
 
-      Varsayılan olarak, wget indirilen dosyayı geçerli çalışma dizinine kaydeder. Dosyayı belirli bir konuma kaydetmek için -P parametresini kullanın.
+      Varsayılan olarak, wget indirilen dosyayı geçerli çalışma dizinine kaydeder.
+      Dosyayı belirli bir konuma kaydetmek için -P parametresini kullanın.
 
       $ wget -P /mnt/iso http://mirrors.mit.edu/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1804.iso
 
@@ -56,7 +62,8 @@
 
 ### --no-check-certificate parametresi
 
-      Geçersiz bir SSL sertifikasına sahip bir ana bilgisayardan HTTPS üzerinden dosya indirmek istiyorsanız --no-check-certificate parametresini kullanın.
+      Geçersiz bir SSL sertifikasına sahip bir ana bilgisayardan HTTPS üzerinden dosya indirmek istiyorsanız
+      --no-check-certificate parametresini kullanın.
 
       $ wget --no-check-certificate https://domain-with-invalid-ss.com
 

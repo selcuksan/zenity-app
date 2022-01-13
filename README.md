@@ -92,3 +92,11 @@
 ![sertifika](https://user-images.githubusercontent.com/56341239/149328141-e2749b29-0a8d-413d-b570-d41377373979.PNG)
 
 
+### Uygulama içi görüntü
+
+![baasarili](https://user-images.githubusercontent.com/56341239/149329623-e66cb4e4-915c-46a4-ab41-38bbb1f33ed0.PNG)
+- Başarılı işlem mesajı
+
+![basarisiz](https://user-images.githubusercontent.com/56341239/149329635-f0aa90f4-3eef-4338-909a-72ea1f8a431f.PNG)
+- Başarısız işlem mesajı
+
